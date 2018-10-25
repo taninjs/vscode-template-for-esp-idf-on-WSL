@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-WSL-UBUNTU18.04",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/include/",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/freertos/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/driver/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/esp32/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/xtensa-esp32-elf/xtensa-esp32-elf/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/newlib/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/soc/esp32/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/heap/include",
+                "C:/Users/tanin/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/lxm/esp/esp-idf/components/soc/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/build/include/**",
+                    "${env:lxm}/esp/xtensa-esp32-elf/**",
+                    "${env:lxm}/esp/esp-idf/components/**"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+        }
+    ],
+    "version": 4
+}
